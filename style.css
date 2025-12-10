@@ -1,0 +1,42 @@
+body{
+    background:#f4f6f9;
+    font-family: 'Segoe UI', sans-serif;
+}
+
+.header{
+    background:#111;
+    padding:15px;
+    color:#fff;
+}
+
+.brand{
+    font-size:24px;
+    font-weight:bold;
+}
+
+.card{
+    border:none;
+    box-shadow:0 0 10px rgba(0,0,0,.1);
+    border-radius:12px;
+    transition:.3s;
+}
+
+.card:hover{
+    transform:scale(1.03);
+}
+
+.card img{
+    height:220px;
+    object-fit:cover;
+    border-radius:12px 12px 0 0;
+}
+
+.price{
+    font-size:20px;
+    color:#198754;
+    font-weight:bold;
+}
+
+.btn-primary{
+    border-radius:20px;
+}
